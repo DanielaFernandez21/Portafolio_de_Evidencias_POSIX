@@ -22,9 +22,9 @@ def run_cmd(cmd, get_output= True, timeout=35, stop_on_error=True):
     return output
 
 def check(test_str):
-    pattern= r'[^\.lorbarends-*\-\s]'
+    pattern= r'[^\.lorbamends-*\-\s]'
     if re.search(pattern, test_str):
-        print('Invalid char in command %r, only chars in brackets are allowed [.lorbarends-*]\n' % (test_str))
+        print('Invalid char in command %r, only chars in brackets are allowed [.lorbamends-*]\n' % (test_str))
         print('Char not permitted.')
     else:
         try:
@@ -35,7 +35,7 @@ def check(test_str):
 
 while True:
     try:
-        s = input(' -> -> ')
+        s = input(' -> -> Empieza el challenge ')
     except:
         break
 
