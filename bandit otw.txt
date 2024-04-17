@@ -1,0 +1,403 @@
+Niveles Bandit
+
+Ana Daniela Fernandez Altamirano
+
+Nivel0:
+
+- ssh bandit0@bandit.labs.overthewire.org -p 2220
+- bandit0
+- ls -al
+- cat readme
+
+
+Nivel1:
+
+- ssh bandit1@bandit.labs.overthewire.org -p 2220
+- NH2SXQwcBdpmTEzi3bvBHMM9H66vVXjL
+- ls -al
+- cat ./-
+
+
+Nivel2:
+
+- ssh bandit2@bandit.labs.overthewire.org -p 2220
+- rRGizSaX8Mk1RTb1CNQoXTcYZWU6lgzi
+- ls -al
+- cat spaces\ in\ this\ filename
+
+
+Nivel3:
+
+- ssh bandit3@bandit.labs.overthewire.org -p 2220
+- aBZ0W5EmUfAf7kHTQeOwd8bauFJ2lAiG
+- ls -al
+- cd inhere/
+- ls -al
+- cat ".hidden"
+
+
+Nivel4: 
+
+- ssh bandit4@bandit.labs.overthewire.org -p 2220
+- 2EW7BBsr6aMMoJ2HjW067dm8EgX26xNe
+- ls -al
+- cd inhere/
+- file ./*
+- cat ./-file07
+
+
+Nivel5:
+
+- ssh bandit5@bandit.labs.overthewire.org -p 2220
+- lrIWWI6bB37kxfiCQZqUdOIYfr6eEeqR
+- ls -al
+- cd inhere/
+- ls -al
+- du -ab | grep 1033
+- cat ./maybehere07/.file2
+
+
+Nivel6:
+
+- ssh bandit6@bandit.labs.overthewire.org -p 2220
+- P4L4vucdmLnm8I7Vl7jG1ApGSfjYKqJU
+- find / -type f -user bandit7 -group bandit6 -size 33c 2>/dev/null
+- cat /var/lib/dpkg/info/bandit7.password
+
+
+Nivel7:
+
+- ssh bandit7@bandit.labs.overthewire.org -p 2220
+- z7WtoNQU2XfjmMtWA8u5rN4vzqu4v99S
+- ls -al
+- cat data.txt | grep millionth
+
+
+Nivel8:
+
+- ssh bandit8@bandit.labs.overthewire.org -p 2220
+- TESKZC0XvTetK0S9xNwm25STk5iWrBvP
+- ls -al
+- sort data.txt | uniq -u
+
+
+Nivel9:
+
+- ssh bandit9@bandit.labs.overthewire.org -p 2220
+- EN632PlfYiZbn3PhVK3XOGSlNInNE00t
+- ls -al
+- strings data.txt | grep ===
+
+
+Nivel10:
+
+- ssh bandit10@bandit.labs.overthewire.org -p 2220
+- G7w8LIi6J3kTb8A7j9LgrywtEUlyyp6s
+- ls -al
+- man base64
+- base64 -d data.txt
+
+
+Nivel11:
+
+- ssh bandit11@bandit.labs.overthewire.org -p 2220
+- 6zPeziLdR2RKNdNYFNb6nVCKzphlXHBM
+- ls -al
+- cat data.txt | tr 'A-Za-z' 'N-ZA-Mn-za-m'
+
+
+Nivel12:
+
+- ssh bandit12@bandit.labs.overthewire.org -p 2220
+- JVNBBFSmZwKKOP0XbFXOoW8chDz5yVRv
+- ls -al
+- mktemp -d
+- cd /tmp/tmp.UcRxMb5SiW
+- cp ~/data.txt .
+- mv data.txt pokemon
+- xxd -r pokemon digimon
+- mv digimon lugia.gz
+- gzip -d lugia.gz
+- xxd lugia
+- mv lugia lugia.bz2
+- bzip2 -d lugia.bz2
+- mv lugia lugia.gz
+- gzip -d lugia.gz
+- xxd lugia | head
+- mv lugia lugia.tar
+- tar -xf lugia.tar
+- tar -xf data5.bin
+- xxd data6.bin
+- bzip2 -d data6.bin
+- tar -xf data6.bin.out
+- xxd data8.bin
+- mv data8.bin data8.gz
+- gzip -d data8.gz
+- cat data8
+
+
+Nivel13:
+
+- ssh bandit13@bandit.labs.overthewire.org -p 2220
+- wbWdlBxEir4CaE8LaPhauuOo6pwRmrDw
+- ls -al
+- ssh -i sshkey.private bandit14@localhost -p 2220
+- 
+
+Nivel 14:
+
+- cd /etc/bandit_pass/
+- ls 
+- cat bandit14
+- nc localhost 30000
+- fGrHPx402xGC7U7rXKDaxiWFTOiF0ENq
+
+Nivel15:
+
+- ssh bandit15@bandit.labs.overthewire.org -p 2220
+- jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+- openssl s_client -connect localhost:30001
+- jN2kgmIXJ6fShzhT2avhotn4Zcka6tnt
+
+
+Nivel16:
+
+- ssh bandit16@bandit.labs.overthewire.org -p 2220
+- JQttfApK4SeyHwDlI9SXGR50qclOAil1
+- nmap -v -A -T4 -p 31000-32000 localhost
+- openssl s_client -connect localhost:31790
+- JQttfApK4SeyHwDlI9SXGR50qclOAil1
+- mkdir -p /tmp/bandit17
+- cd /tmp/bandit17
+- ls
+- cat bandit17.key
+- chmod 600 bandit17.key
+
+
+Nivel17:
+
+- ssh -i bandit17.key bandit17@localhost -p 2220
+- ls
+- diff passwords.new passwords.old
+- cat passwords.new | grep p6ggwdNHncnmCNxuAt0KtKVq185ZU7AW
+- cat passwords.new | grep hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+
+Nivel18: 
+
+- ssh bandit18@bandit.labs.overthewire.org -p 2220
+- hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+- ssh bandit18@bandit.labs.overthewire.org -p 2220 ls -al
+- hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+- ssh bandit18@bandit.labs.overthewire.org -p 2220 cat readme
+- hga5tuuCLF6fFzUpnagiMN8ssu9LFrdg
+
+
+Nivel19:
+
+- ssh bandit19@bandit.labs.overthewire.org -p 2220
+- awhqfNnAbc1naukrpqDYcF95h7HoMTrC
+- ls -al
+- ./bandit20-do id
+- ./bandit20-do cat /etc/bandit_pass/bandit20
+
+Nivel20:
+
+- ssh bandit20@bandit.labs.overthewire.org -p 2220
+- VxCazJaVykI6W36BkBU0mJTCM8rR95XT
+- echo -n 'VxCazJaVykI6W36BkBU0mJTCM8rR95XT' | nc -l -p 1234 &
+- ./suconnect 1234
+
+
+Nivel21:
+
+- ssh bandit21@bandit.labs.overthewire.org -p 2220
+- NvEJF7oVjkddltPSrdKEFOllh9V1IBcq
+- ls -la /etc/cron.d
+- cat /etc/cron.d/cronjob_bandit22
+- cat /usr/bin/cronjob_bandit22.sh
+- cat /tmp/t7O6lds9S0RqQh9aMcz6ShpAoZKF7fgv
+
+
+Nivel22:
+
+- ssh bandit22@bandit.labs.overthewire.org -p 2220
+- WdDozAdTM2z9DiFEQ2mGlwngMfj4EZff
+- ls -la /etc/cron.d
+- cat /etc/cron.d/cronjob_bandit23
+- cat /usr/bin/cronjob_bandit23.sh
+- echo I am user bandit23 | md5sum | cut -d ' ' -f 1
+- cat /tmp/8ca319486bfbbc3663ea0fbe81326349
+
+
+Nivel23:
+
+- ssh bandit23@bandit.labs.overthewire.org -p 2220
+- QYw0Y2aiA672PsMmh9puTQuhoz8SyR2G
+- ls -la /etc/cron.d
+- cat /etc/cron.d/cronjob_bandit24
+- cat /usr/bin/cronjob_bandit24.sh
+- mktemp -d
+- cd /tmp/tmp.Yzbbh7qYa2
+- nano banditpass.sh
+	#!/bin/bash
+	cat /etc/bandit_pass/bandit24 	> /tmp/tmp.Yzbbh7qYa2/pass
+- touch pass
+- ls
+- chmod 777 -R /tmp/tmp.Yzbbh7qYa2
+- cp banditpass.sh /var/spool/bandit24/foo
+- cat pass
+
+Nivel24:
+
+- ssh bandit24@bandit.labs.overthewire.org -p 2220
+- VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+- nc localhost 30002
+- mktemp -d
+- cd /tmp/tmp.3wJAklsHlD
+- nano passbucle.sh
+	#!/bin/bash
+
+	pw=VAfGXJ1PBSsPSnvsjI8p759leLZ9GGar
+
+	for code in {0000..9999}
+	do
+        	echo "$pw $code"
+	done | 
+	nc localhost 30002
+- chmod +x passbucle.sh
+- ./passbucle.sh
+
+
+Nivel25:
+
+- ssh bandit25@bandit.labs.overthewire.org -p 2220
+- p7TaowMYrmu23Ol8hiZh9UvD0O9hpx8d
+- ssh -i bandit26.sshkey bandit26@localhost -p 2220
+- cat /etc/passwd | grep "bandit26"
+- cat /usr/bin/showtext
+- !ls
+- v
+	:shell
+	:set shell=/bin/bash 
+	:shell
+- ls
+- cat /etc/bandit_pass/bandit26
+
+
+Nivel26:
+
+c7GvcKlw9mC7aUQaPx7nwFstuAIBw1o1
+
+- ls
+- ./bandit27-do
+- ./bandit27-do whoami
+- ./bandit27-do cat /etc/bandit\_pass/bandit27
+
+
+Nivel27:
+
+- ssh bandit27@bandit.labs.overthewire.org -p 2220
+- YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS
+- mktemp -d
+- cd /tmp/tmp.Tqojx3bxwW
+- git clone ssh://bandit27-git@localhost:2220/home/bandit27-git/repo
+- YnQpBuifNMas1hcUFk70ZmqkhUU2EuaS
+- ls -al
+- cd repo
+- ls -al
+- cat README
+
+
+Nivel28:
+
+- ssh bandit28@bandit.labs.overthewire.org -p 2220
+- AVanL161y9rsbcJIsFHuw35rjaOM19nR
+- mktemp -d
+- cd /tmp/tmp.QaFpxTSLqN
+- git clone ssh://bandit28-git@localhost:2220/home/bandit28-git/repo
+- AVanL161y9rsbcJIsFHuw35rjaOM19nR
+- ls -al
+- cd repo
+- cat README.md
+- git log
+- git show 14f754b3ba6531a2b89df6ccae6446e8969a41f3
+
+
+Nivel29:
+
+- ssh bandit29@bandit.labs.overthewire.org -p 2220
+- tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S
+- mktemp -d
+- cd /tmp/tmp.gSm1kIBZ71
+- git clone ssh://bandit29-git@localhost:2220/home/bandit29-git/repo
+- tQKvmcwNYcFS6vmPHIUSI3ShmsrQZK8S
+- cd repo
+- ls -al
+- cat README.md
+- git log
+- git show 4364630b3b27c92aff7b36de7bb6ed2d30b60f88
+- man git | grep branch
+- git branch -a
+- git checkout dev
+- ls -al
+- cat README.md
+
+Nivel30:
+
+- ssh bandit30@bandit.labs.overthewire.org -p 2220
+- xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS
+- mktemp -d
+- cd /tmp/tmp.GsQpJ5J02t
+- git clone ssh://bandit30-git@localhost:2220/home/bandit30-git/repo
+- xbhV3HpNGlTIdnjUrdAlPzc2L6y9EOnS
+- ls -al
+- cd repo
+- ls -al
+- cat README.md
+- git log
+- git branch -a
+- git tag
+- cat secret
+- git show secret
+
+
+Nivel31:
+
+- ssh bandit31@bandit.labs.overthewire.org -p 2220
+- OoffzGDlzhAlerFJ2cAiz1D41JW1Mhmt
+- mktemp -d
+- cd /tmp/tmp.mqon7Q2qUX
+- git clone ssh://bandit31-git@localhost:2220/home/bandit31-git/repo
+- OoffzGDlzhAlerFJ2cAiz1D41JW1Mhmt
+- ls -al
+- cd repo
+- ls -al
+- cat README.md
+- vi key.txt
+	May I come in?
+- git add key.txt
+- rm .gitignore
+- git add key.txt
+- git status
+- git commit -m “key.txt”
+- git push -u origin master
+- OoffzGDlzhAlerFJ2cAiz1D41JW1Mhmt
+
+
+Nivel32:
+
+- ssh bandit32@bandit.labs.overthewire.org -p 2220
+- rmCBvG56y58BXzv98yZGdO7ATVL5dW8y
+- $0
+- ls -al
+- whoami
+- cat /etc/bandit\_pass/bandit33
+
+
+Nivel33:
+
+- ssh bandit33@bandit.labs.overthewire.org -p 2220
+- odHo63fHiFqcWWJG9rLiLDtPm45KzUKy
+- ls
+- cat README.txt
