@@ -8,3 +8,6 @@ Script Menu_Bash.sh
 
 Script 980
 [![asciicast](https://asciinema.org/a/rD1wik9zcRi880d6KnixghIaf.svg)](https://asciinema.org/a/rD1wik9zcRi880d6KnixghIaf)
+
+Menu 396 Scripts
+[![asciicast](https://asciinema.org/a/hq772dsl7q5ifuyk5rsxnpC4Z.svg)](https://asciinema.org/a/hq772dsl7q5ifuyk5rsxnpC4Z)
